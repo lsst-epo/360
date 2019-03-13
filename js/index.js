@@ -6,7 +6,7 @@ animate();
 function init() {
 
   // Main Scene ===================
-  texture = new THREE.TextureLoader().load( 'assets/output_03-04-2019_15_51_51.JPG' );
+  texture = new THREE.TextureLoader().load( 'assets/output_03-13-2019_12_04_21.JPG' );
   texture.mapping = THREE.UVMapping;
 
   // Camera
