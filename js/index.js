@@ -4,9 +4,10 @@ init();
 animate();
 
 function init() {
-
+var textureValue = document.getElementById("texture").value; 
+console.log(textureValue)
   // Main Scene ===================
-  texture = new THREE.TextureLoader().load( 'assets/output_03-13-2019_12_04_21.JPG' );
+  texture = new THREE.TextureLoader().load( textureValue + '.JPG' );
   texture.mapping = THREE.UVMapping;
 
   // Camera
