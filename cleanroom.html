@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8">
+		<title>360 Tour | Cleanroom</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/style.css">
+	<body>
+
+		<select class="custom-select fixed-bottom canvas-overlay-button hidden" id="texture" aria-label="Color" onchange="init()">
+				<option value="assets/PHOTO_0041" selected>Summit Clean Room</option>
+		</select>
+		<canvas id="main"></canvas>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js'></script>
+		<script src='https://s3.ca-central-1.amazonaws.com/maxv-dev/ThreeJS/OrbitControls.js'></script>
+		<script src="js/index.js"></script>
+
+	</body>
+</html>

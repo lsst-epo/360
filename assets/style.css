@@ -8,3 +8,9 @@ body {
 #canvas {
 	height: 101vh;
 }
+
+
+#texture {
+	position: absolute;
+	margin: 20px;
+}

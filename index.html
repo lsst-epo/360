@@ -3,28 +3,23 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>360 Tour</title>
-		<style type="text/css">
-			body {
-				overflow-y: hidden;
-			}
-			#canvas {
-				height: 101vh;
-			}
-		</style>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/style.css">
 	<body>
 
-				<select style="position: absolute; margin: 20px;" class="custom-select fixed-bottom canvas-overlay-button" id="texture" aria-label="Color" onchange="init()">
-				<option value="assets/PHOTO_0021">Inside Pier</option>
-				<option value="assets/PHOTO_0022">Inside Pier 2</option>
-				<option value="assets/PHOTO_0028">Inside Dome</option>
-				<option value="assets/PHOTO_0030">Control Room</option>
-				<option value="assets/PHOTO_0034">Outside Mountain View</option>
-				<option value="assets/PHOTO_0041">Summit Clean Room</option>
-				<option value="assets/PHOTO_0043">Auxiliary Telescope</option>
-				<option value="assets/PHOTO_0045">Outside Auxiliary Telescope</option>
-				<option value="assets/PHOTO_0048">Lego Space Pants</option>
+		<select class="custom-select fixed-bottom canvas-overlay-button" id="texture" aria-label="Color" onchange="init()">
+				<option value="assets/images/output_03-13-2019_12_04_21">EPO Group Photo</option>
+				<option value="assets/images/PHOTO_0021">Inside Pier</option>
+				<option value="assets/images/PHOTO_0022">Inside Pier 2</option>
+				<option value="assets/images/PHOTO_0028">Inside Dome</option>
+				<option value="assets/images/PHOTO_0030">Control Room</option>
+				<option value="assets/images/PHOTO_0034">Outside Mountain View</option>
+				<option value="assets/images/PHOTO_0041" selected>Summit Clean Room</option>
+				<option value="assets/images/PHOTO_0043">Auxiliary Telescope</option>
+				<option value="assets/images/PHOTO_0045">Outside Auxiliary Telescope</option>
+				<option value="assets/images/PHOTO_0048">Lego Space Pants</option>
+				<option value="assets/images/PHOTO_0038">Pier and Lift</option>
+				<option value="assets/images/PHOTO_0032">Coating Chamber Room</option>
 		</select>
 		<canvas id="main"></canvas>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js'></script>

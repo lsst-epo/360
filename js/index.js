@@ -7,7 +7,7 @@ function init() {
 var textureValue = document.getElementById("texture").value; 
 console.log(textureValue)
   // Main Scene ===================
-  texture = new THREE.TextureLoader().load( textureValue + '-min.jpg' );
+  texture = new THREE.TextureLoader().load( textureValue + '.jpg' );
   texture.mapping = THREE.UVMapping;
 
   // Camera
